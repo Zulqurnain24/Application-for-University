@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272413561D6B984B00123587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272413551D6B984B00123587 /* AppDelegate.swift */; };
+		272413581D6B984B00123587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272413571D6B984B00123587 /* ViewController.swift */; };
+		2724135B1D6B984B00123587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272413591D6B984B00123587 /* Main.storyboard */; };
+		2724135E1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */; };
+		272413601D6B984B00123587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2724135F1D6B984B00123587 /* Assets.xcassets */; };
+		272413631D6B984B00123587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272413611D6B984B00123587 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272413521D6B984B00123587 /* UniversityOfUtahApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversityOfUtahApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272413551D6B984B00123587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		272413571D6B984B00123587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2724135A1D6B984B00123587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniversityOfUtahApp.xcdatamodel; sourceTree = "<group>"; };
+		2724135F1D6B984B00123587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272413621D6B984B00123587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272413641D6B984B00123587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2724134F1D6B984B00123587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272413491D6B984A00123587 = {
+			isa = PBXGroup;
+			children = (
+				272413541D6B984B00123587 /* UniversityOfUtahApp */,
+				272413531D6B984B00123587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272413531D6B984B00123587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272413521D6B984B00123587 /* UniversityOfUtahApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272413541D6B984B00123587 /* UniversityOfUtahApp */ = {
+			isa = PBXGroup;
+			children = (
+				272413551D6B984B00123587 /* AppDelegate.swift */,
+				272413571D6B984B00123587 /* ViewController.swift */,
+				272413591D6B984B00123587 /* Main.storyboard */,
+				2724135F1D6B984B00123587 /* Assets.xcassets */,
+				272413611D6B984B00123587 /* LaunchScreen.storyboard */,
+				272413641D6B984B00123587 /* Info.plist */,
+				2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */,
+			);
+			path = UniversityOfUtahApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272413511D6B984B00123587 /* UniversityOfUtahApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272413671D6B984B00123587 /* Build configuration list for PBXNativeTarget "UniversityOfUtahApp" */;
+			buildPhases = (
+				2724134E1D6B984B00123587 /* Sources */,
+				2724134F1D6B984B00123587 /* Frameworks */,
+				272413501D6B984B00123587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversityOfUtahApp;
+			productName = UniversityOfUtahApp;
+			productReference = 272413521D6B984B00123587 /* UniversityOfUtahApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2724134A1D6B984A00123587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohammad Zulqurnain";
+				TargetAttributes = {
+					272413511D6B984B00123587 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2724134D1D6B984A00123587 /* Build configuration list for PBXProject "UniversityOfUtahApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272413491D6B984A00123587;
+			productRefGroup = 272413531D6B984B00123587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272413511D6B984B00123587 /* UniversityOfUtahApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272413501D6B984B00123587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272413631D6B984B00123587 /* LaunchScreen.storyboard in Resources */,
+				272413601D6B984B00123587 /* Assets.xcassets in Resources */,
+				2724135B1D6B984B00123587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2724134E1D6B984B00123587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272413581D6B984B00123587 /* ViewController.swift in Sources */,
+				272413561D6B984B00123587 /* AppDelegate.swift in Sources */,
+				2724135E1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		272413591D6B984B00123587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2724135A1D6B984B00123587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272413611D6B984B00123587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272413621D6B984B00123587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272413651D6B984B00123587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272413661D6B984B00123587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272413681D6B984B00123587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversityOfUtahApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Truffle.tech.zain.UniversityOfUtahApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		272413691D6B984B00123587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UniversityOfUtahApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Truffle.tech.zain.UniversityOfUtahApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2724134D1D6B984A00123587 /* Build configuration list for PBXProject "UniversityOfUtahApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272413651D6B984B00123587 /* Debug */,
+				272413661D6B984B00123587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272413671D6B984B00123587 /* Build configuration list for PBXNativeTarget "UniversityOfUtahApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272413681D6B984B00123587 /* Debug */,
+				272413691D6B984B00123587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */,
+			);
+			currentVersion = 2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */;
+			path = UniversityOfUtahApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2724134A1D6B984A00123587 /* Project object */;
+}
