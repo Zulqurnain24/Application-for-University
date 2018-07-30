@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270F35191D6E0573004E99F8 /* RoasterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270F35181D6E0573004E99F8 /* RoasterCell.swift */; };
+		270F351C1D6E3A16004E99F8 /* ClassesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E831D6CD5E700C8B0B5 /* ClassesMenuViewController.swift */; };
+		271239881D7F77C500CCF926 /* ClassMenuEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271239871D7F77C500CCF926 /* ClassMenuEntity.swift */; };
+		2712398A1D7F77DE00CCF926 /* ClassMenuEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271239891D7F77DE00CCF926 /* ClassMenuEntity+CoreDataProperties.swift */; };
+		2719CC351D78D7F80058DDFE /* RosterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719CC341D78D7F80058DDFE /* RosterEntity.swift */; };
+		2719CC371D78D8340058DDFE /* RosterEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2719CC361D78D8340058DDFE /* RosterEntity+CoreDataProperties.swift */; };
+		271C3E821D6CD5AF00C8B0B5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E811D6CD5AF00C8B0B5 /* LoginViewController.swift */; };
+		271C3E861D6CD61200C8B0B5 /* RoasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E851D6CD61200C8B0B5 /* RoasterViewController.swift */; };
+		271C3E881D6CD62A00C8B0B5 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E871D6CD62A00C8B0B5 /* ReportViewController.swift */; };
+		271C3E8A1D6CD6A600C8B0B5 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E891D6CD6A600C8B0B5 /* ForgotPasswordViewController.swift */; };
+		271C3E8C1D6CD6B600C8B0B5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E8B1D6CD6B600C8B0B5 /* RegistrationViewController.swift */; };
+		271C3E971D6CDC1400C8B0B5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E951D6CDC1400C8B0B5 /* DataManager.swift */; };
+		271C3E991D6CDD8000C8B0B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271C3E981D6CDD8000C8B0B5 /* Foundation.framework */; };
+		271C3E9B1D6CDD8700C8B0B5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271C3E9A1D6CDD8700C8B0B5 /* SystemConfiguration.framework */; };
+		271C3E9E1D6CDDB300C8B0B5 /* IJReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E9D1D6CDDB300C8B0B5 /* IJReachability.swift */; };
+		271C3EA01D6CDFC100C8B0B5 /* NavigationbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C3E9F1D6CDFC100C8B0B5 /* NavigationbarController.swift */; };
+		272332531D9ECF73004B0D04 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272332521D9ECF73004B0D04 /* SwiftyJSON.swift */; };
+		272413561D6B984B00123587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272413551D6B984B00123587 /* AppDelegate.swift */; };
+		2724135B1D6B984B00123587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272413591D6B984B00123587 /* Main.storyboard */; };
+		2724135E1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */; };
+		272413601D6B984B00123587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2724135F1D6B984B00123587 /* Assets.xcassets */; };
+		272413631D6B984B00123587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272413611D6B984B00123587 /* LaunchScreen.storyboard */; };
+		2724136B1D6BA6DA00123587 /* Utah Diving Club .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2724136A1D6BA6DA00123587 /* Utah Diving Club .jpg */; };
+		2724256D1D80B6AD00535441 /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272425671D80B6AD00535441 /* OvalLayer.swift */; };
+		2724256E1D80B6AD00535441 /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272425681D80B6AD00535441 /* TriangleLayer.swift */; };
+		2724256F1D80B6AD00535441 /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272425691D80B6AD00535441 /* RectangleLayer.swift */; };
+		272425701D80B6AD00535441 /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724256A1D80B6AD00535441 /* ArcLayer.swift */; };
+		272425711D80B6AD00535441 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724256B1D80B6AD00535441 /* HolderView.swift */; };
+		272425721D80B6AD00535441 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2724256C1D80B6AD00535441 /* Colors.swift */; };
+		272425741D80DA3D00535441 /* ReportEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272425731D80DA3D00535441 /* ReportEntity.swift */; };
+		272425761D80DA5600535441 /* ReportEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272425751D80DA5600535441 /* ReportEntity+CoreDataProperties.swift */; };
+		272425781D80E9C700535441 /* Dive_Team_Managment_Profile.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = 272425771D80E9C700535441 /* Dive_Team_Managment_Profile.mobileprovision */; };
+		2768F0641D7A122E00962931 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2768F0631D7A122E00962931 /* CoreDataStack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270F35181D6E0573004E99F8 /* RoasterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoasterCell.swift; sourceTree = "<group>"; };
+		271239871D7F77C500CCF926 /* ClassMenuEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassMenuEntity.swift; sourceTree = "<group>"; };
+		271239891D7F77DE00CCF926 /* ClassMenuEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClassMenuEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2719CC341D78D7F80058DDFE /* RosterEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RosterEntity.swift; sourceTree = "<group>"; };
+		2719CC361D78D8340058DDFE /* RosterEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RosterEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		271C3E811D6CD5AF00C8B0B5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "swift classes/LoginViewController.swift"; sourceTree = "<group>"; };
+		271C3E831D6CD5E700C8B0B5 /* ClassesMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesMenuViewController.swift; sourceTree = "<group>"; };
+		271C3E851D6CD61200C8B0B5 /* RoasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoasterViewController.swift; sourceTree = "<group>"; };
+		271C3E871D6CD62A00C8B0B5 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		271C3E891D6CD6A600C8B0B5 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		271C3E8B1D6CD6B600C8B0B5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		271C3E951D6CDC1400C8B0B5 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		271C3E981D6CDD8000C8B0B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		271C3E9A1D6CDD8700C8B0B5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		271C3E9D1D6CDDB300C8B0B5 /* IJReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJReachability.swift; sourceTree = "<group>"; };
+		271C3E9F1D6CDFC100C8B0B5 /* NavigationbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationbarController.swift; sourceTree = "<group>"; };
+		272332521D9ECF73004B0D04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		272413521D6B984B00123587 /* Software Club Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Software Club Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		272413551D6B984B00123587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2724135A1D6B984B00123587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniversityOfUtahApp.xcdatamodel; sourceTree = "<group>"; };
+		2724135F1D6B984B00123587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272413621D6B984B00123587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272413641D6B984B00123587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2724136A1D6BA6DA00123587 /* Utah Diving Club .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Utah Diving Club .jpg"; sourceTree = "<group>"; };
+		272425671D80B6AD00535441 /* OvalLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		272425681D80B6AD00535441 /* TriangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		272425691D80B6AD00535441 /* RectangleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		2724256A1D80B6AD00535441 /* ArcLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		2724256B1D80B6AD00535441 /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		2724256C1D80B6AD00535441 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		272425731D80DA3D00535441 /* ReportEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportEntity.swift; sourceTree = "<group>"; };
+		272425751D80DA5600535441 /* ReportEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReportEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		272425771D80E9C700535441 /* Dive_Team_Managment_Profile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dive_Team_Managment_Profile.mobileprovision; sourceTree = "<group>"; };
+		2768F0631D7A122E00962931 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2724134F1D6B984B00123587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271C3E9B1D6CDD8700C8B0B5 /* SystemConfiguration.framework in Frameworks */,
+				271C3E991D6CDD8000C8B0B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2719CC331D78D7CF0058DDFE /* core data classes */ = {
+			isa = PBXGroup;
+			children = (
+				2768F0631D7A122E00962931 /* CoreDataStack.swift */,
+				2719CC361D78D8340058DDFE /* RosterEntity+CoreDataProperties.swift */,
+				2719CC341D78D7F80058DDFE /* RosterEntity.swift */,
+				271239871D7F77C500CCF926 /* ClassMenuEntity.swift */,
+				271239891D7F77DE00CCF926 /* ClassMenuEntity+CoreDataProperties.swift */,
+				272425731D80DA3D00535441 /* ReportEntity.swift */,
+				272425751D80DA5600535441 /* ReportEntity+CoreDataProperties.swift */,
+			);
+			name = "core data classes";
+			sourceTree = "<group>";
+		};
+		271C3E8D1D6CDBAE00C8B0B5 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				271C3E9A1D6CDD8700C8B0B5 /* SystemConfiguration.framework */,
+				271C3E981D6CDD8000C8B0B5 /* Foundation.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		271C3E921D6CDBDE00C8B0B5 /* view controller classes */ = {
+			isa = PBXGroup;
+			children = (
+				271C3E9F1D6CDFC100C8B0B5 /* NavigationbarController.swift */,
+				272413551D6B984B00123587 /* AppDelegate.swift */,
+				271C3E811D6CD5AF00C8B0B5 /* LoginViewController.swift */,
+				271C3E851D6CD61200C8B0B5 /* RoasterViewController.swift */,
+				270F35181D6E0573004E99F8 /* RoasterCell.swift */,
+				271C3E831D6CD5E700C8B0B5 /* ClassesMenuViewController.swift */,
+				271C3E871D6CD62A00C8B0B5 /* ReportViewController.swift */,
+				271C3E891D6CD6A600C8B0B5 /* ForgotPasswordViewController.swift */,
+				271C3E8B1D6CD6B600C8B0B5 /* RegistrationViewController.swift */,
+			);
+			name = "view controller classes";
+			sourceTree = "<group>";
+		};
+		271C3E931D6CDBFB00C8B0B5 /* JSON classes */ = {
+			isa = PBXGroup;
+			children = (
+				272332521D9ECF73004B0D04 /* SwiftyJSON.swift */,
+				271C3E951D6CDC1400C8B0B5 /* DataManager.swift */,
+			);
+			name = "JSON classes";
+			sourceTree = "<group>";
+		};
+		271C3E9C1D6CDD9E00C8B0B5 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				271C3E9D1D6CDDB300C8B0B5 /* IJReachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		272413491D6B984A00123587 = {
+			isa = PBXGroup;
+			children = (
+				272413541D6B984B00123587 /* UniversityOfUtahApp */,
+				272413531D6B984B00123587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272413531D6B984B00123587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272413521D6B984B00123587 /* Software Club Management.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272413541D6B984B00123587 /* UniversityOfUtahApp */ = {
+			isa = PBXGroup;
+			children = (
+				272425771D80E9C700535441 /* Dive_Team_Managment_Profile.mobileprovision */,
+				272425661D80B69000535441 /* Animation classes */,
+				271C3E9C1D6CDD9E00C8B0B5 /* Reachability */,
+				271C3E931D6CDBFB00C8B0B5 /* JSON classes */,
+				2719CC331D78D7CF0058DDFE /* core data classes */,
+				271C3E921D6CDBDE00C8B0B5 /* view controller classes */,
+				272413591D6B984B00123587 /* Main.storyboard */,
+				2724135F1D6B984B00123587 /* Assets.xcassets */,
+				271C3E8D1D6CDBAE00C8B0B5 /* framework */,
+				2724136C1D6BA6DF00123587 /* graphics */,
+				272413611D6B984B00123587 /* LaunchScreen.storyboard */,
+				272413641D6B984B00123587 /* Info.plist */,
+				2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */,
+			);
+			path = UniversityOfUtahApp;
+			sourceTree = "<group>";
+		};
+		2724136C1D6BA6DF00123587 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				2724136A1D6BA6DA00123587 /* Utah Diving Club .jpg */,
+			);
+			name = graphics;
+			sourceTree = "<group>";
+		};
+		272425661D80B69000535441 /* Animation classes */ = {
+			isa = PBXGroup;
+			children = (
+				272425671D80B6AD00535441 /* OvalLayer.swift */,
+				272425681D80B6AD00535441 /* TriangleLayer.swift */,
+				272425691D80B6AD00535441 /* RectangleLayer.swift */,
+				2724256A1D80B6AD00535441 /* ArcLayer.swift */,
+				2724256B1D80B6AD00535441 /* HolderView.swift */,
+				2724256C1D80B6AD00535441 /* Colors.swift */,
+			);
+			name = "Animation classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272413511D6B984B00123587 /* Software Club Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272413671D6B984B00123587 /* Build configuration list for PBXNativeTarget "Software Club Management" */;
+			buildPhases = (
+				2724134E1D6B984B00123587 /* Sources */,
+				2724134F1D6B984B00123587 /* Frameworks */,
+				272413501D6B984B00123587 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Software Club Management";
+			productName = UniversityOfUtahApp;
+			productReference = 272413521D6B984B00123587 /* Software Club Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2724134A1D6B984A00123587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohammad Zulqurnain";
+				TargetAttributes = {
+					272413511D6B984B00123587 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VCRDPY9TCH;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2724134D1D6B984A00123587 /* Build configuration list for PBXProject "Software Club Management" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272413491D6B984A00123587;
+			productRefGroup = 272413531D6B984B00123587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272413511D6B984B00123587 /* Software Club Management */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272413501D6B984B00123587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272413631D6B984B00123587 /* LaunchScreen.storyboard in Resources */,
+				272425781D80E9C700535441 /* Dive_Team_Managment_Profile.mobileprovision in Resources */,
+				2724136B1D6BA6DA00123587 /* Utah Diving Club .jpg in Resources */,
+				272413601D6B984B00123587 /* Assets.xcassets in Resources */,
+				2724135B1D6B984B00123587 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2724134E1D6B984B00123587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271239881D7F77C500CCF926 /* ClassMenuEntity.swift in Sources */,
+				272425721D80B6AD00535441 /* Colors.swift in Sources */,
+				2724256E1D80B6AD00535441 /* TriangleLayer.swift in Sources */,
+				2724256F1D80B6AD00535441 /* RectangleLayer.swift in Sources */,
+				270F351C1D6E3A16004E99F8 /* ClassesMenuViewController.swift in Sources */,
+				271C3E8A1D6CD6A600C8B0B5 /* ForgotPasswordViewController.swift in Sources */,
+				2724256D1D80B6AD00535441 /* OvalLayer.swift in Sources */,
+				2719CC351D78D7F80058DDFE /* RosterEntity.swift in Sources */,
+				271C3EA01D6CDFC100C8B0B5 /* NavigationbarController.swift in Sources */,
+				271C3E861D6CD61200C8B0B5 /* RoasterViewController.swift in Sources */,
+				271C3E9E1D6CDDB300C8B0B5 /* IJReachability.swift in Sources */,
+				272332531D9ECF73004B0D04 /* SwiftyJSON.swift in Sources */,
+				270F35191D6E0573004E99F8 /* RoasterCell.swift in Sources */,
+				2712398A1D7F77DE00CCF926 /* ClassMenuEntity+CoreDataProperties.swift in Sources */,
+				2768F0641D7A122E00962931 /* CoreDataStack.swift in Sources */,
+				272425761D80DA5600535441 /* ReportEntity+CoreDataProperties.swift in Sources */,
+				271C3E8C1D6CD6B600C8B0B5 /* RegistrationViewController.swift in Sources */,
+				272413561D6B984B00123587 /* AppDelegate.swift in Sources */,
+				272425701D80B6AD00535441 /* ArcLayer.swift in Sources */,
+				2719CC371D78D8340058DDFE /* RosterEntity+CoreDataProperties.swift in Sources */,
+				271C3E821D6CD5AF00C8B0B5 /* LoginViewController.swift in Sources */,
+				272425711D80B6AD00535441 /* HolderView.swift in Sources */,
+				271C3E971D6CDC1400C8B0B5 /* DataManager.swift in Sources */,
+				2724135E1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld in Sources */,
+				271C3E881D6CD62A00C8B0B5 /* ReportViewController.swift in Sources */,
+				272425741D80DA3D00535441 /* ReportEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		272413591D6B984B00123587 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2724135A1D6B984B00123587 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272413611D6B984B00123587 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272413621D6B984B00123587 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272413651D6B984B00123587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272413661D6B984B00123587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272413681D6B984B00123587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VCRDPY9TCH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniversityOfUtahApp",
+				);
+				INFOPLIST_FILE = UniversityOfUtahApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dive.teammanagement.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		272413691D6B984B00123587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = VCRDPY9TCH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UniversityOfUtahApp",
+				);
+				INFOPLIST_FILE = UniversityOfUtahApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dive.teammanagement.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2724134D1D6B984A00123587 /* Build configuration list for PBXProject "Software Club Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272413651D6B984B00123587 /* Debug */,
+				272413661D6B984B00123587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272413671D6B984B00123587 /* Build configuration list for PBXNativeTarget "Software Club Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272413681D6B984B00123587 /* Debug */,
+				272413691D6B984B00123587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2724135C1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */,
+			);
+			currentVersion = 2724135D1D6B984B00123587 /* UniversityOfUtahApp.xcdatamodel */;
+			path = UniversityOfUtahApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2724134A1D6B984A00123587 /* Project object */;
+}

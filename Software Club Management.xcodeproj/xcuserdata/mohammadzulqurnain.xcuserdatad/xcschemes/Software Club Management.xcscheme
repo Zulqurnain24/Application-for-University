@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "272413511D6B984B00123587"
-               BuildableName = "UniversityOfUtahApp.app"
-               BlueprintName = "UniversityOfUtahApp"
-               ReferencedContainer = "container:UniversityOfUtahApp.xcodeproj">
+               BuildableName = "Software Club Management.app"
+               BlueprintName = "Software Club Management"
+               ReferencedContainer = "container:Software Club Management.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "272413511D6B984B00123587"
-            BuildableName = "UniversityOfUtahApp.app"
-            BlueprintName = "UniversityOfUtahApp"
-            ReferencedContainer = "container:UniversityOfUtahApp.xcodeproj">
+            BuildableName = "Software Club Management.app"
+            BlueprintName = "Software Club Management"
+            ReferencedContainer = "container:Software Club Management.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "272413511D6B984B00123587"
-            BuildableName = "UniversityOfUtahApp.app"
-            BlueprintName = "UniversityOfUtahApp"
-            ReferencedContainer = "container:UniversityOfUtahApp.xcodeproj">
+            BuildableName = "Software Club Management.app"
+            BlueprintName = "Software Club Management"
+            ReferencedContainer = "container:Software Club Management.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "272413511D6B984B00123587"
-            BuildableName = "UniversityOfUtahApp.app"
-            BlueprintName = "UniversityOfUtahApp"
-            ReferencedContainer = "container:UniversityOfUtahApp.xcodeproj">
+            BuildableName = "Software Club Management.app"
+            BlueprintName = "Software Club Management"
+            ReferencedContainer = "container:Software Club Management.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

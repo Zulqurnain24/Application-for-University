@@ -1,4 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="ClassMenuEntity" representedClassName="ClassMenuEntity" syncable="YES">
+        <attribute name="dayofweek" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptiondetail" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="group" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="starttime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ReportEntity" representedClassName="ReportEntity" syncable="YES">
+        <attribute name="emailaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobilenumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RosterEntity" representedClassName="RosterEntity" syncable="YES">
+        <attribute name="cellnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ClassMenuEntity" positionX="-54" positionY="36" width="128" height="120"/>
+        <element name="ReportEntity" positionX="-36" positionY="45" width="128" height="135"/>
+        <element name="RosterEntity" positionX="-63" positionY="-18" width="128" height="135"/>
+    </elements>
 </model>
